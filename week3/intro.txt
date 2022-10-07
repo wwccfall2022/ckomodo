@@ -1,6 +1,6 @@
 My five favorite things are:
-- 
-- 
-- 
-- 
-- 
+- one
+- two
+- three
+- five
+- five
