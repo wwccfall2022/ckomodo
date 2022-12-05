@@ -166,6 +166,7 @@ DELIMITER ;;
 
     END;; 
      
+DELIMITER ;;
 
 CREATE PROCEDURE attack(attacked_character_id INT UNSIGNED, equipped_id INT UNSIGNED)
 
