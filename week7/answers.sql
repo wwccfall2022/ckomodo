@@ -11,7 +11,11 @@ CREATE TABLE players (
 
 CREATE TABLE characters (
   character_id INT UNSIGNED PRIMARY KEY NOT NULL AUTO_INCREMENT,
-  player_id INT UNSIGNED FOREIGN KEY players(player_id),
+  player_id INT UNSIGNED NOT NULL,
+  FOREIGN KEY (player_id),
+    REFERENCES players (player_id)
+    ON UPDATE CASCADE
+    ON DELETE CASCADE
   name VARCHAR(30) NOT NULL,
   level INT UNSIGNED
 );
