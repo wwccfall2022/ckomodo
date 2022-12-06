@@ -109,7 +109,7 @@ checks:
       WHERE c.character_id = 10
   resultSize: 3
   result:
-    - ["Frodo Baggins", "1", "1"]
+    - ["Frodo Baggins", "2", "1"]
 
 - name: Frodo Checks His Inventory
   sql: |
@@ -174,7 +174,7 @@ checks:
       WHERE c.character_id = 7
   resultSize: 3
   result:
-    - ["Jon Snow", "7", "2"]
+    - ["Jon Snow", "12", "2"]
 
 - name: Jon Snow Attacks Frodo 
   sql: |
